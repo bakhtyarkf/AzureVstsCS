@@ -1,0 +1,1817 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/3.17.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.5",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.TeamFoundation.DistributedTask.Common.Contracts/15.131.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Services.Client": "[15.131.0-preview]"
+        },
+        "compile": {
+          "lib/net45/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll": {}
+        }
+      },
+      "Microsoft.TeamFoundationServer.Client/15.131.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Microsoft.TeamFoundation.DistributedTask.Common.Contracts": "[15.131.0-preview]",
+          "Microsoft.VisualStudio.Services.Client": "[15.131.0-preview]",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/Microsoft.TeamFoundation.Build2.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Core.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Dashboards.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Policy.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.SourceControl.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Test.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestManagement.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Wiki.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Work.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.TeamFoundation.Build2.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Core.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Dashboards.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Policy.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.SourceControl.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Test.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestManagement.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Wiki.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Work.WebApi.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Core.WebApi.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.TeamFoundationServer.ExtendedClient/15.131.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.17.2",
+          "Microsoft.TeamFoundationServer.Client": "[15.131.0-preview]",
+          "Microsoft.VisualStudio.Services.Client": "[15.131.0-preview]",
+          "Microsoft.VisualStudio.Services.InteractiveClient": "[15.131.0-preview]",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IdentityModel.Tokens.Jwt": "5.1.5"
+        },
+        "compile": {
+          "lib/net45/Microsoft.TeamFoundation.Build.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Build.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.DeleteTeamProject.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Diff.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Discussion.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Git.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.TestIntegration.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.ProjectManagement.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.SharePointReporting.Integration.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestImpact.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestManagement.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestManagement.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.VersionControl.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.Integration.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.TeamFoundation.Build.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Build.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.DeleteTeamProject.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Diff.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Discussion.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Git.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.TestIntegration.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.ProjectManagement.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.SharePointReporting.Integration.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestImpact.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestManagement.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.TestManagement.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.VersionControl.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.Integration.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Common.dll": {},
+          "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Build.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Build.Common.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Discussion.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.Common.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.TestImpact.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.TestManagement.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Services.Client/15.131.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/Microsoft.TeamFoundation.Common.dll": {},
+          "lib/net45/Microsoft.VisualStudio.Services.Common.dll": {},
+          "lib/net45/Microsoft.VisualStudio.Services.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.TeamFoundation.Common.dll": {},
+          "lib/net45/Microsoft.VisualStudio.Services.Common.dll": {},
+          "lib/net45/Microsoft.VisualStudio.Services.WebApi.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/cs/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/de/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/es/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/fr/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/it/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ja/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/ko/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pl/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/pt-BR/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/tr/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hans/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/Microsoft.TeamFoundation.Common.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.VisualStudio.Services.Common.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net45/zh-Hant/Microsoft.VisualStudio.Services.WebApi.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Services.InteractiveClient/15.131.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.17.2",
+          "Microsoft.IdentityModel.Logging": "1.1.5",
+          "Microsoft.IdentityModel.Tokens": "5.1.5",
+          "Microsoft.VisualStudio.Services.Client": "[15.131.0-preview]",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IdentityModel.Tokens.Jwt": "5.1.5",
+          "WindowsAzure.ServiceBus": "3.3.2"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Services.Client.Interactive.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Services.Client.Interactive.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.5"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "WindowsAzure.ServiceBus/3.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "files": [
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "files": [
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/3.17.2": {
+      "sha512": "aJinZQ8+48DSdN521xo1jRVXWmyoJIggq6mygBis/QAqiWwe/nZ4U21JfsYJMGdyu0NpGCDuyKUQOCod1EoA0A==",
+      "type": "package",
+      "path": "microsoft.identitymodel.clients.activedirectory/3.17.2",
+      "files": [
+        "lib/MonoAndroid7/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/MonoAndroid7/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/MonoAndroid7/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/MonoAndroid7/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.1/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml",
+        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
+        "microsoft.identitymodel.clients.activedirectory.3.17.2.nupkg.sha512",
+        "microsoft.identitymodel.clients.activedirectory.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/1.1.5": {
+      "sha512": "cDarc2eVVJUU69FhepWYs/ZmHkwTPnNnSvSct7FMKeHpukVARNdmEQ7wKZB/l3QjMo42ioI0meVZ/ASrEymY6w==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/1.1.5",
+      "files": [
+        "lib/net45/Microsoft.IdentityModel.Logging.dll",
+        "lib/net45/Microsoft.IdentityModel.Logging.xml",
+        "lib/net451/Microsoft.IdentityModel.Logging.dll",
+        "lib/net451/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.1.1.5.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/5.1.5": {
+      "sha512": "cYh3lKy/N0X4l1LfqRzjTC7Vq+SYGCv4ZopiTJ3Pglb4CGW8ZI/K8Q6MOz83YHq00lgPuJPVuykPP4Btr5CDXA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/5.1.5",
+      "files": [
+        "lib/net45/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net45/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net451/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net451/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.5.1.5.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
+    "Microsoft.TeamFoundation.DistributedTask.Common.Contracts/15.131.0-preview": {
+      "sha512": "75Fc9pDnOpYDtHBvYF3wl0g+Y4x7tFF5VrOswXy+wLRIQExNd9YvufiLscBEIRJiAAvoJR/3uY9OgEvFXIGiFQ==",
+      "type": "package",
+      "path": "microsoft.teamfoundation.distributedtask.common.contracts/15.131.0-preview",
+      "files": [
+        "lib/net45/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll",
+        "lib/net45/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.xml",
+        "microsoft.teamfoundation.distributedtask.common.contracts.15.131.0-preview.nupkg.sha512",
+        "microsoft.teamfoundation.distributedtask.common.contracts.nuspec"
+      ]
+    },
+    "Microsoft.TeamFoundationServer.Client/15.131.0-preview": {
+      "sha512": "JtKfYSR1zDBoOUnVgsHLA/zHeIXdCbnlDTCEiRZvBpzWTZ+VpECR6K9vwuiSi7DYv+66VPJqKDqHNUnybdKn0Q==",
+      "type": "package",
+      "path": "microsoft.teamfoundationserver.client/15.131.0-preview",
+      "files": [
+        "lib/net45/Microsoft.TeamFoundation.Build2.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Build2.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.Core.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Core.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.Dashboards.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Dashboards.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.Policy.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Policy.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.SourceControl.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.SourceControl.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.Test.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Test.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.TestManagement.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.TestManagement.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.Wiki.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Wiki.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.Work.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.Work.WebApi.xml",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.WebApi.xml",
+        "lib/net45/cs/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Core.WebApi.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Build2.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Build2.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.Core.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Core.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.Dashboards.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Dashboards.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.Policy.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Policy.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.SourceControl.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.SourceControl.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.Test.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Test.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.TestManagement.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.TestManagement.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.Work.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Work.WebApi.xml",
+        "lib/netcore50/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.WorkItemTracking.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Build2.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Build2.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Core.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Core.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Dashboards.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Dashboards.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Policy.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Policy.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.SourceControl.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.SourceControl.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Test.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Test.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.TestManagement.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.TestManagement.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Wiki.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Wiki.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Work.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Work.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.WorkItemTracking.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Build2.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Build2.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Core.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Core.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Dashboards.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Dashboards.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Policy.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Policy.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.SourceControl.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.SourceControl.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Test.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Test.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.TestManagement.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.TestManagement.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Work.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Work.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.WorkItemTracking.WebApi.xml",
+        "microsoft.teamfoundationserver.client.15.131.0-preview.nupkg.sha512",
+        "microsoft.teamfoundationserver.client.nuspec"
+      ]
+    },
+    "Microsoft.TeamFoundationServer.ExtendedClient/15.131.0-preview": {
+      "sha512": "J/NU14A/gJEtJJy5BZHXBVGDOt8jCKFlDlB48Mf9edvOksm1+EK+qn192KNFbFMQDF5Y10cfqvtavs9HlEGBrA==",
+      "type": "package",
+      "path": "microsoft.teamfoundationserver.extendedclient/15.131.0-preview",
+      "files": [
+        "build/Microsoft.TeamFoundationServer.ExtendedClient.targets",
+        "lib/native/amd64/Microsoft.WITDataStore64.dll",
+        "lib/native/x86/Microsoft.WITDataStore32.dll",
+        "lib/net45/Microsoft.TeamFoundation.Build.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Build.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.Build.Common.dll",
+        "lib/net45/Microsoft.TeamFoundation.Build.Common.xml",
+        "lib/net45/Microsoft.TeamFoundation.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.DeleteTeamProject.dll",
+        "lib/net45/Microsoft.TeamFoundation.DeleteTeamProject.xml",
+        "lib/net45/Microsoft.TeamFoundation.Diff.dll",
+        "lib/net45/Microsoft.TeamFoundation.Diff.xml",
+        "lib/net45/Microsoft.TeamFoundation.Discussion.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Discussion.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.Git.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Git.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.Lab.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Lab.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.Lab.Common.dll",
+        "lib/net45/Microsoft.TeamFoundation.Lab.Common.xml",
+        "lib/net45/Microsoft.TeamFoundation.Lab.TestIntegration.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Lab.TestIntegration.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.ProjectManagement.dll",
+        "lib/net45/Microsoft.TeamFoundation.ProjectManagement.xml",
+        "lib/net45/Microsoft.TeamFoundation.SharePointReporting.Integration.dll",
+        "lib/net45/Microsoft.TeamFoundation.SharePointReporting.Integration.xml",
+        "lib/net45/Microsoft.TeamFoundation.TestImpact.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.TestImpact.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.TestManagement.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.TestManagement.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.TestManagement.Common.dll",
+        "lib/net45/Microsoft.TeamFoundation.TestManagement.Common.xml",
+        "lib/net45/Microsoft.TeamFoundation.VersionControl.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.VersionControl.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.Integration.dll",
+        "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.Integration.xml",
+        "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.dll",
+        "lib/net45/Microsoft.TeamFoundation.VersionControl.Common.xml",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.xml",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.xml",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.dll",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Client.xml",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Common.dll",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Common.xml",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll",
+        "lib/net45/Microsoft.TeamFoundation.WorkItemTracking.Proxy.xml",
+        "lib/net45/cs/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/cs/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Build.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Build.Common.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Discussion.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.Common.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.TestImpact.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.TestManagement.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll",
+        "microsoft.teamfoundationserver.extendedclient.15.131.0-preview.nupkg.sha512",
+        "microsoft.teamfoundationserver.extendedclient.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Services.Client/15.131.0-preview": {
+      "sha512": "lWSx7I8+PRLS5kD3ArEM2gTlL1Mw2NGMVeIQql9bnCJcdjWLTyphg4OAbc3Qf2ACOcOI9e1jCBfTIsN72FJgmg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.services.client/15.131.0-preview",
+      "files": [
+        "lib/net45/Microsoft.TeamFoundation.Common.dll",
+        "lib/net45/Microsoft.TeamFoundation.Common.xml",
+        "lib/net45/Microsoft.VisualStudio.Services.Common.dll",
+        "lib/net45/Microsoft.VisualStudio.Services.Common.xml",
+        "lib/net45/Microsoft.VisualStudio.Services.WebApi.dll",
+        "lib/net45/Microsoft.VisualStudio.Services.WebApi.xml",
+        "lib/net45/cs/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/cs/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/cs/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/de/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/de/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/de/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/es/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/es/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/es/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/fr/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/fr/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/fr/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/it/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/it/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/it/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/ja/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/ja/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/ja/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/ko/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/ko/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/ko/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/pl/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/pl/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/pl/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/pt-BR/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/pt-BR/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/pt-BR/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/ru/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/ru/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/ru/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/tr/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/tr/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/tr/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.TeamFoundation.Common.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.Services.Common.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.Services.WebApi.resources.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Common.dll",
+        "lib/netcore50/Microsoft.TeamFoundation.Common.xml",
+        "lib/netcore50/Microsoft.VisualStudio.Services.Common.dll",
+        "lib/netcore50/Microsoft.VisualStudio.Services.Common.xml",
+        "lib/netcore50/Microsoft.VisualStudio.Services.WebApi.dll",
+        "lib/netcore50/Microsoft.VisualStudio.Services.WebApi.xml",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Common.dll",
+        "lib/netstandard1.6/Microsoft.TeamFoundation.Common.xml",
+        "lib/netstandard1.6/Microsoft.VisualStudio.Services.Common.dll",
+        "lib/netstandard1.6/Microsoft.VisualStudio.Services.Common.xml",
+        "lib/netstandard1.6/Microsoft.VisualStudio.Services.WebApi.dll",
+        "lib/netstandard1.6/Microsoft.VisualStudio.Services.WebApi.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Common.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.TeamFoundation.Common.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.VisualStudio.Services.Common.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.VisualStudio.Services.Common.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.VisualStudio.Services.WebApi.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.VisualStudio.Services.WebApi.xml",
+        "microsoft.visualstudio.services.client.15.131.0-preview.nupkg.sha512",
+        "microsoft.visualstudio.services.client.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Services.InteractiveClient/15.131.0-preview": {
+      "sha512": "LOZ1sNRxvlYo3kHRtZZKi2E9E25Dw4bwNTvlXzgYQrUvJfJ2t7fu5M7NH455m7cfy1mEyoIJDJ8KDfh5Vf/q+A==",
+      "type": "package",
+      "path": "microsoft.visualstudio.services.interactiveclient/15.131.0-preview",
+      "files": [
+        "lib/net45/Microsoft.VisualStudio.Services.Client.Interactive.dll",
+        "lib/net45/Microsoft.VisualStudio.Services.Client.Interactive.xml",
+        "lib/net45/cs/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/de/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/es/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/fr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/it/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/ja/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/ko/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/pl/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/pt-BR/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/ru/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/tr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll",
+        "lib/netcore50/Microsoft.VisualStudio.Services.Client.Interactive.dll",
+        "lib/netcore50/Microsoft.VisualStudio.Services.Client.Interactive.xml",
+        "lib/netstandard1.6/Microsoft.VisualStudio.Services.Client.Interactive.dll",
+        "lib/netstandard1.6/Microsoft.VisualStudio.Services.Client.Interactive.xml",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.VisualStudio.Services.Client.Interactive.dll",
+        "lib/portable-net45+netcore45+wpa81/Microsoft.VisualStudio.Services.Client.Interactive.xml",
+        "microsoft.visualstudio.services.interactiveclient.15.131.0-preview.nupkg.sha512",
+        "microsoft.visualstudio.services.interactiveclient.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.1": {
+      "sha512": "pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.1",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/5.1.5": {
+      "sha512": "S3XfQSoC5e9VYcvjyQk0MkWFDGYJQjrHRkRxwTTdoCqbeXs1q61VAYDVeXi9JjGHeDw5eROwARoboL7b9SRb+Q==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/5.1.5",
+      "files": [
+        "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net451/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.5.1.5.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "WindowsAzure.ServiceBus/3.3.2": {
+      "sha512": "u1l+SaQ1Ao+55iLrGhn3JsIws6Y6ERQCU9uuwhs6JCoqPZ0o2r3kCAnzW/bCCWlLYbJc1GVSQF8kM3ws/QUysg==",
+      "type": "package",
+      "path": "windowsazure.servicebus/3.3.2",
+      "files": [
+        "content/app.config.install.xdt",
+        "content/web.config.install.xdt",
+        "lib/net45-full/Microsoft.ServiceBus.dll",
+        "lib/net45-full/Microsoft.ServiceBus.xml",
+        "windowsazure.servicebus.3.3.2.nupkg.sha512",
+        "windowsazure.servicebus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.TeamFoundationServer.Client >= 15.131.0-preview",
+      "Microsoft.TeamFoundationServer.ExtendedClient >= 15.131.0-preview",
+      "Newtonsoft.Json >= 11.0.1"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"frameworks": {
+		"net46": {
+			"dependencies": {
+				"Microsoft.TeamFoundationServer.Client":"15.131.0-preview",
+				"Microsoft.TeamFoundationServer.ExtendedClient":"15.131.0-preview",
+				"Newtonsoft.Json": "11.0.1"
+			}
+		}
+	}
+}
